@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+@keyframes transition{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+.head{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: x-large;
+}
+
+nav{
+   background-color: #06445A;
+   backdrop-filter: blur(30px); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;   
+    padding: 0 35px;
+}
+
+nav li{
+    display: inline-block;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 7px;
+    width: 250px;
+}
+
+nav a{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    animation: transition 1.5s;
+}
+
+nav a:hover{
+    transition: ease 0.3s;
+    color: #f46637;
+}
+
+.navlinks{
+    background-color: rgb(228, 246, 233);
+    border-radius: 55px;
+    display: flex;
+    height: 35px;
+    width: 270px;
+    animation: transition 1.5s;
+}
+
+.logo h3{
+    color: #f77f57;
+    justify-content:flex-end;
+    margin-right: 150vh;
+    font-size: 45px;
+    padding: 0 14px;
+    margin-top: 15px;
+    width: 15px;
+    animation: transition 1.5s;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+section{
+        background-color: #06445A;
+        font-family: 'Poppins', sans-serif;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scroll-snap-align: start;
+}
+
+.two{
+    color: #06445A;
+    background-color: rgb(214, 249, 224);
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+img{
+    image-resolution: 360px;
+    width: 250px;
+    height: 250px;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    animation: transition 1.5s;
+}
+
+.text{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    animation: transition 1.5s;
+}
+
+h1 {
+    display: flex;
+   color: #b8e5f6;
+   font-size: 42px;
+   font-weight:900;
+   animation: transition 1.5s;
+}
+
+.text h2{
+    color: #06445A;
+    font-size: 40px;
+    font-weight: bold;
+    animation: transition 1.5s;
+}
+
+.text p{
+    color: #06445A;
+    font-size: 23px;
+    animation: transition 1.5s;
+}
+
+.text a{
+    text-decoration: none;
+    color: azure;
+}
+
+button{
+    background-color:#fdd133;
+    border-color: aliceblue;
+    border-style: solid;
+    height: 25px;
+    width: 100px;
+    animation: transition 1.5s;
+}
+
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: transition 1.5s;
+
+} 
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:20px;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 350px;
+    animation: transition 1.5s;
+}
+
+.icons i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: space-around;
+    color: #b8e5f6;
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+.icons i:hover{
+    transition: ease-in 0.3s;
+    color: #f46637;
+}
+
+h5{
+    color: #b8e5f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-size: xx-large;
+   animation: transition 1.5s;
+}
+
+.btn{
+    color: #06445A;
+    background-color: rgb(214, 249, 224);
+    border-style: none;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #0b6282;
+    font-size: 11;
+    font-weight: bold;
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    animation: transition 1.5s;
+}
+
+.btn a{
+    color: #06445A;
+}
+
+.btn2{
+    color: white;
+    background-color: #f46637;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 35px;
+    width: 112px;
+    cursor: pointer;
+}
+.up i{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 87vh;
+    margin-left: 200vh;
+    font-size: xx-large;
+    animation: transition 1.5s;
+
+}
+.up a{
+    color: #0b6282;
+   text-decoration: none;
+}
+
+
+
+.phezulu i{
+    display: none;
+    margin-bottom: 87vh;
+    font-size: xx-large;
+    animation: transition 1.5s;
+    
+}
+
+.phezulu a{
+    color: #b8e5f6;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    float: right;
+}
+.menu i{
+    display: flex;
+    margin-bottom: 100vh;
+    float: right;
+    color: #b8e5f6;
+    font-size: xx-large;
+}
+
+@media only screen and (max-width: 320px) {
+    
+    body{
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav a{
+        margin-top: 1px;
+        margin-bottom: 8px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .navlinks {
+        display: none;
+        margin-top: 10px;
+        height: 8rem;
+        width: 100%;
+    }
+
+    .logo h3 {
+        margin-top: 55px;
+        margin-right: 140px;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    .head{
+        font-size: 100px;
+    }
+    section.one .head h1 {
+        margin-left: 35px;
+        font-weight: bolder;
+        margin-bottom: 50px;
+        font-size: 8rem;
+    }
+
+    .head h1{
+        font-size: 2rem;
+        display: flex;
+    }
+
+    .two{
+        height: 100%;
+    }
+
+    section.two .container {
+        flex-direction: column-reverse;
+    }
+
+    section.two .text {
+        width: 100%;
+        left: 0;
+        height: 100vh;
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    section.two img {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: auto;
+        float: none;
+        margin-bottom: 45px;
+    }
+
+    section.two h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    section .two p{
+        flex-direction: column;
+        text-align: center;
+        font-size: 5px;
+        margin: 15px;
+        margin-right: 10px;
+    }
+
+    section.three h5 {
+        position: absolute;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .icons {
+        position: absolute;
+        display: inline-flex;
+        margin-top: 90%;
+        margin-bottom: 20px;
+        margin-right: 25;
+        text-align: center;
+    }
+
+    .icons a {
+        display: block;
+        margin: 0 3px;
+
+    }
+
+    .btn2{
+        
+        margin-top: 150px;
+        margin-right: 9px;
+        font-size: 12px;
+    }
+
+    .up a{
+        display: none;
+        margin-bottom: 10px;
+    }
+
+    .phezulu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /* Adjust styles specifically for screens with a width of 320px */
+    body{
+        width: 100%;
+    }
+    
+    section.one .head h1 {
+        font-size: 25px;
+    }
+
+    section .two{
+        height: 300vh;
+    }
+
+    section.two h2 {
+        font-size: 25px;
+    }
+
+    section.two p {
+        font-size: 14px;
+    }
+
+    .icons i {
+        font-size: 16px;
+    }
+
+    .btn2, .btn a {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+
+    nav{
+
+        border-bottom: #06445A;
+    }
+
+    .navlinks{
+        display: none;
+    }
+
+
+    .logo h3 {   
+    /* Adjustments for logo */
+        font-size: 65px;
+        margin-top: 105px;
+        margin-right: 170px;
+    }
+
+    section {
+        /* Adjustments for sections */
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .one{
+        overflow-x: hidden;
+    }
+
+    .head h1 {
+        /* Adjustments for h1 in section.one */
+        margin-left: 36px;
+        font-weight: bolder;
+        margin-bottom: 0px;
+        font-size: 3rem;
+    }
+
+    section.two img {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: auto;
+        float: none;
+        margin-left: 3px;
+        margin-right: 1000px;
+        margin-bottom: 45px;
+    }
+
+    section.two h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    section .two p{
+        flex-direction: column;
+        text-align: center;
+        font-size: 5px;
+        margin: 15px;
+        margin-right: 10px;
+    }
+    
+
+    .btn{
+        margin-left: 86px;
+    }
+
+    section.three h5 {
+        /* Adjustments for h5 in section.three */
+        position: absolute;
+        margin-top: -90px;
+        margin-left: 0px;
+        font-size: 26px;
+    }
+
+    .icons {
+        position: absolute;
+        display: inline-flex;
+        margin-top: 70%;
+        margin-bottom: 20px;
+        margin-right: 25;
+        text-align: center;
+    }
+
+    .icons a {
+        display: block;
+        margin: 0 3px;
+
+    }
+
+    .btn2{
+        
+        margin-top: 110px;
+        margin-right: 9px;
+        font-size: 12px;
+    }
+
+    .up a {
+        /* Adjustments for the "up" link */
+          display: none;  
+    }
+
+    .phezulu {
+        /* Adjustments for the "phezulu" element */
+        display: none;
+    }
+}
