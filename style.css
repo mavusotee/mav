@@ -483,6 +483,7 @@ h5{
         width: 300px;
         height: auto;
         float: none;
+        margin-top: ;
         margin-left: -20px;
         margin-right: 0px;
         margin-bottom: 45px;
@@ -510,7 +511,7 @@ h5{
         /* Adjustments for h5 in section.three */
         position: absolute;
         margin-top: -90px;
-        margin-left: 0px;
+        margin-left: 5px;
         font-size: 26px;
     }
 
